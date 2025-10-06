@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.filters {
+  margin: 20px;
+}
+
+.filters label {
+  margin: 0 10px;
+  font-size: 1.1em;
+}
+
+.filters input[type="checkbox"] {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.photo-block {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  width: 220px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.photo-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.photo-block h4 {
+  margin: 10px 0 5px;
+  font-size: 1em;
+}
+
+.photo-block button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s;
+}
+
+.photo-block button:hover {
+  background-color: #0056b3;
+}
